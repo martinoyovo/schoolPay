@@ -24,3 +24,22 @@ body{
 section h1{
     font-weight: bold;
 }
+
+@media (max-width: 576px) {
+    .mob-hero h1 {
+       font-size: 2em;
+    }
+ }
+ 
+ @media (min-width: 576px) {
+    .m10-news-feed {
+       font-size: 2em;
+    }
+ }
+
+ @media (max-width: 576px) {
+    .m10-news-feed-btn {
+        margin-top: 1em!important;
+    }
+ }
+ 

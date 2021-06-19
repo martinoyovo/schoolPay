@@ -33,6 +33,9 @@
 .pd-b-1{
     padding-bottom: 1em;
 }
+.pd-b-2{
+   padding-bottom: 2em;
+}
 .pd-b-5{
    padding-bottom: 5em;
 }
@@ -42,6 +45,22 @@
 
 .mg-t-10{
    margin-top: 10em;
+}
+
+.mg-t-5{
+   margin-top: 5em;
+}
+
+.mg-l-10{
+   margin-left: 10em;
+}
+
+.mg-r-2{
+   margin-right: 2em;
+}
+
+.input-pd{
+   padding: .75rem .75rem;
 }
 
 /** background-color */
@@ -96,4 +115,10 @@
 }
 .rec-w-7{
    width: 70%;
+}
+
+@media (max-width: 576px) {
+   .pd-7{
+      padding: 2em;
+   }
 }
